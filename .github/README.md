@@ -30,9 +30,11 @@ Add the package to an existing Umbraco website from NuGet:
 dotnet add package RedMorello.SurveyStudio
 ```
 
-Run the site and open the **Survey Studio** section in the Umbraco backoffice — no further configuration is required to get started.
+Run the site and add the SurveyStudio section to your User account, then open the **Survey Studio** section in the Umbraco backoffice - no further configuration is required to get started. Add the SurveyStudio Admin user group to your account to enable changing the settings in the backoffice.
 
-On first install, Survey Studio sends a one-time notification (site domain, package/Umbraco versions, license tier) so RedMorello knows where the package is installed — see [LICENSE.txt](../LICENSE.txt) for details. Disable via `Surveys:Telemetry:Enabled: false`.
+Sample forms can be seeded automatically on first run via the `SurveyStudio:SeedSampleData` / `SurveyStudio:SeedSampleForms` configuration options.
+
+On first install, Survey Studio sends a one-time notification (site domain, package/Umbraco versions, license tier) so RedMorello knows where the package is installed - see [LICENSE.txt](../LICENSE.txt) for details. Disable via `Surveys:Telemetry:Enabled: false`.
 
 ## License
 

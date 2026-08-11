@@ -4,7 +4,7 @@ End User License Agreement (EULA)
 DRAFT — for review by a solicitor before use. Bracketed items [ ] mark
 decisions or facts this draft does not attempt to make on your behalf.
 
-Copyright (c) 2026 Ian Houghton, trading as RedMorello ("Licensor").
+Copyright (c) 2026 Ian Houghton, trading as RedMorello Limited ("Licensor").
 
 This End User License Agreement ("Agreement") is a legal agreement between
 you, or the company or organisation you represent ("Licensee"), and Licensor
