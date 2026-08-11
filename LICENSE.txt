@@ -1,0 +1,104 @@
+RedMorello Survey Studio
+End User License Agreement (EULA)
+
+DRAFT — for review by a solicitor before use. Bracketed items [ ] mark
+decisions or facts this draft does not attempt to make on your behalf.
+
+Copyright (c) 2026 Ian Houghton, trading as RedMorello ("Licensor").
+
+This End User License Agreement ("Agreement") is a legal agreement between
+you, or the company or organisation you represent ("Licensee"), and Licensor
+governing use of the RedMorello.SurveyStudio software, including its
+compiled binaries, backoffice client assets, and accompanying documentation
+(the "Software").
+
+BY INSTALLING, ACCESSING, OR USING THE SOFTWARE, YOU ACCEPT THIS AGREEMENT.
+IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
+
+1. GRANT OF LICENSE
+   Subject to Licensee's payment of the applicable license fee and
+   compliance with this Agreement, Licensor grants Licensee a limited,
+   non-exclusive, non-transferable, non-sublicensable license to install
+   and use the Software, in compiled/object form only, within
+   [number of Umbraco sites / seats / tenants — define the unit the fee is
+   charged per] operated by Licensee or Licensee's own clients.
+
+2. RESTRICTIONS
+   Licensee shall not, and shall not permit any third party to:
+   (a) modify, adapt, translate, or create derivative works of the
+       Software;
+   (b) reverse engineer, decompile, disassemble, or otherwise attempt to
+       derive the source code of the Software, except to the extent this
+       restriction is prohibited by applicable law;
+   (c) redistribute, resell, sublicense, rent, lease, lend, or otherwise
+       make the Software available to any third party other than as
+       embedded, running functionality within a website Licensee or
+       Licensee's client operates;
+   (d) remove, obscure, or alter any proprietary notices on or in the
+       Software;
+   (e) use the Software, or any component bundled with it, to build,
+       market, or operate a product that competes with the Software or
+       with any third-party component bundled within it, including any
+       standalone survey/form-building tool.
+
+3. THIRD-PARTY COMPONENTS
+   The Software bundles SurveyJS Creator and related SurveyJS components,
+   licensed from Devsoft Baltic OÜ ("SurveyJS"), and other third-party
+   open-source components. Licensee's use of the Software as licensed
+   under this Agreement does not require Licensee to obtain a separate
+   license from SurveyJS, provided Licensee's use complies with Section 2
+   above. See THIRD-PARTY-NOTICES.md for details. Third-party components
+   remain governed by their own license terms, which take precedence over
+   this Agreement with respect to those components.
+
+4. OWNERSHIP
+   The Software is licensed, not sold. Licensor and its licensors retain
+   all right, title, and interest in and to the Software, including all
+   intellectual property rights. No rights are granted other than those
+   expressly set out in this Agreement.
+
+5. INSTALLATION TELEMETRY
+   On first installation, the Software sends Licensor a one-time
+   notification containing the installed site's domain, the Software's
+   version, the host Umbraco CMS version, and license tier/licensee name
+   if a license is active. This is used solely to help Licensor understand
+   where the Software is installed and provide support; it is not sold or
+   shared with third parties. This notification can be disabled via the
+   Surveys:Telemetry:Enabled configuration setting.
+
+6. FEES AND TERM
+   [Describe fee structure: one-time / annual / per-site, renewal terms,
+   and what happens on non-renewal — e.g. Software continues to function
+   at last-licensed version but is no longer entitled to updates/support.]
+   This Agreement is effective until terminated. Licensor may terminate
+   this Agreement immediately on written notice if Licensee breaches
+   Section 2. On termination, Licensee must cease using the Software and
+   remove it from all systems.
+
+7. SUPPORT AND UPDATES
+   [Describe what support/update entitlement, if any, comes with the
+   license fee, and for how long.]
+
+8. WARRANTY DISCLAIMER
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE
+   FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+   DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, ARISING OUT OF OR RELATED
+   TO THIS AGREEMENT OR THE SOFTWARE. LICENSOR'S TOTAL LIABILITY UNDER
+   THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE
+   SOFTWARE IN THE [12] MONTHS PRECEDING THE CLAIM.
+
+10. GOVERNING LAW
+   This Agreement is governed by the laws of [England and Wales —
+   confirm], without regard to conflict of law principles. The courts of
+   [England and Wales — confirm] shall have exclusive jurisdiction over
+   any dispute arising from this Agreement.
+
+11. CONTACT
+    [Licensor contact/support email and, if applicable, registered
+    company name and number.]
