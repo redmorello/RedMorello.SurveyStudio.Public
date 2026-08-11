@@ -1,4 +1,7 @@
-# Survey Studio for Umbraco
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../logos/lockups/surveystudio-lockup-on-red.png">
+  <img alt="Survey Studio" src="../logos/lockups/surveystudio-lockup-transparent.png" width="420">
+</picture>
 
 [![Downloads](https://img.shields.io/nuget/dt/RedMorello.SurveyStudio?color=cc9900)](https://www.nuget.org/packages/RedMorello.SurveyStudio/)
 [![NuGet](https://img.shields.io/nuget/vpre/RedMorello.SurveyStudio?color=0273B3)](https://www.nuget.org/packages/RedMorello.SurveyStudio)

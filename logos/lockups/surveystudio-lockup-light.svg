@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160" font-family="Archivo, sans-serif">
+<rect width="640" height="160" fill="#f3f2f2"></rect>
+<g transform="translate(40,35.199999999999996) scale(0.8960000000000001)" fill="none" stroke="#ec3013" stroke-width="5">
+<rect x="26" y="14" width="48" height="72"></rect>
+<rect x="40" y="8" width="20" height="10" fill="#ec3013" stroke="none"></rect>
+<line x1="36" y1="34" x2="64" y2="34"></line>
+<line x1="36" y1="46" x2="64" y2="46"></line>
+<path d="M36 58 L42 64 L64 42" stroke-width="6"></path>
+</g>
+<text x="153.60000000000002" y="80" dominant-baseline="middle" font-size="54.400000000000006" font-weight="800" fill="#201e1d">Survey<tspan fill="#ec3013">Studio</tspan></text>
+</svg>
