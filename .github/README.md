@@ -5,7 +5,7 @@
 
 [![Downloads](https://img.shields.io/nuget/dt/RedMorello.SurveyStudio?color=cc9900)](https://www.nuget.org/packages/RedMorello.SurveyStudio/)
 [![NuGet](https://img.shields.io/nuget/vpre/RedMorello.SurveyStudio?color=0273B3)](https://www.nuget.org/packages/RedMorello.SurveyStudio)
-[![GitHub license](https://img.shields.io/github/license/redmorello/RedMorello.SurveyStudio?color=8AB803)](../LICENSE.txt)
+[![GitHub license](https://img.shields.io/github/license/redmorello/RedMorello.SurveyStudio.Public?color=8AB803)](../LICENSE.txt)
 
 Survey Studio adds a full forms and survey builder to the Umbraco backoffice — no external SaaS, no separate SurveyJS license, no iframe embed. Editors build, publish, and review surveys entirely inside the CMS they already use.
 
