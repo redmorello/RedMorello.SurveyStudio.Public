@@ -1,0 +1,29 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Ian Houghton",
+    "ImageUrl": "https://github.com/redmorello.png"
+  },
+  "Category": "Editor Tools",
+  "AlternateCategory": "Developer Tools",
+  "Description": "Adds uSync handlers for Survey Studio, so forms, templates, data lists, custom questions, themes, workflows, and tenants can be promoted between Umbraco environments the same way you already promote content types and data types. Submissions and other respondent data are never synced. Requires Survey Studio and uSync.",
+  "LicenseTypes": [
+    "Purchase"
+  ],
+  "IssueTrackerUrl": "https://github.com/redmorello/RedMorello.SurveyStudio.Public/issues",
+  "PackageType": "Package",
+  "RelatedPackages": [
+    {
+      "PackageId": "RedMorello.SurveyStudio",
+      "Description": "The Survey Studio survey builder this package extends."
+    }
+  ],
+  "Tags": [
+    "uSync",
+    "Survey Studio",
+    "Surveys",
+    "Forms",
+    "Deployment"
+  ],
+  "Title": "Survey Studio uSync"
+}

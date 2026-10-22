@@ -1,0 +1,45 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Ian Houghton",
+    "ImageUrl": "https://github.com/redmorello.png"
+  },
+  "Category": "Editor Tools",
+  "Description": "Survey Studio adds a full survey builder to the Umbraco backoffice, built on SurveyJS - no separate SurveyJS license required. Editors design multi-page surveys, quizzes, and data-capture forms with reusable custom question types, data lists, and themes, then drive branching logic through a visual conditional workflow engine and score responses automatically. Forms are organized into folders and reusable templates, submissions are reviewed right in the backoffice, and a multi-tenant-ready data layer makes it a fit for agencies running many Umbraco sites from one install.",
+  "LicenseTypes": [
+    "Purchase"
+  ],
+  "IssueTrackerUrl": "https://github.com/redmorello/RedMorello.SurveyStudio.Public/issues",
+  "PackageType": "Package",
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/redmorello/RedMorello.SurveyStudio.Public/main/docs/screenshots/forms-list.jpg",
+      "Caption": "Surveys list view, with search and status at a glance"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/redmorello/RedMorello.SurveyStudio.Public/main/docs/screenshots/forms-grid.jpg",
+      "Caption": "Surveys grid view"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/redmorello/RedMorello.SurveyStudio.Public/main/docs/screenshots/form-designer.jpg",
+      "Caption": "The SurveyJS-powered survey designer, built into the Umbraco backoffice"
+    }
+  ],
+  "Tags": [
+    "Forms",
+    "Surveys",
+    "Survey Builder",
+    "Quiz",
+    "Questionnaire",
+    "SurveyJS",
+    "Workflow",
+    "Multi-tenant"
+  ],
+  "Title": "Survey Studio",
+  "RelatedPackages": [
+    {
+      "PackageId": "RedMorello.SurveyStudio.uSync",
+      "Description": "uSync handlers for promoting Survey Studio forms, templates, themes, and workflows between environments."
+    }
+  ]
+}
