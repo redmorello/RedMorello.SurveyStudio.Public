@@ -1,10 +1,8 @@
 RedMorello Survey Studio
 End User License Agreement (EULA)
 
-DRAFT — for review by a solicitor before use. Bracketed items [ ] mark
-decisions or facts this draft does not attempt to make on your behalf.
-
-Copyright (c) 2026 Ian Houghton, trading as RedMorello Limited ("Licensor").
+Copyright (c) 2026 RedMorello Limited ("Licensor"), a company registered in
+England and Wales with company number 07148999.
 
 This End User License Agreement ("Agreement") is a legal agreement between
 you, or the company or organisation you represent ("Licensee"), and Licensor
@@ -19,9 +17,9 @@ IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
    Subject to Licensee's payment of the applicable license fee and
    compliance with this Agreement, Licensor grants Licensee a limited,
    non-exclusive, non-transferable, non-sublicensable license to install
-   and use the Software, in compiled/object form only, within
-   [number of Umbraco sites / seats / tenants — define the unit the fee is
-   charged per] operated by Licensee or Licensee's own clients.
+   and use the Software, in compiled/object form only, on the number of
+   production Umbraco sites for which Licensee has paid the license fee,
+   operated by Licensee or Licensee's own clients.
 
 2. RESTRICTIONS
    Licensee shall not, and shall not permit any third party to:
@@ -58,26 +56,53 @@ IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
    expressly set out in this Agreement.
 
 5. INSTALLATION TELEMETRY
-   On first installation, the Software sends Licensor a one-time
-   notification containing the installed site's domain, the Software's
+   While installed, the Software sends Licensor a notification roughly
+   once a week containing the installed site's domain, the Software's
    version, the host Umbraco CMS version, and license tier/licensee name
    if a license is active. This is used solely to help Licensor understand
    where the Software is installed and provide support; it is not sold or
    shared with third parties. This notification can be disabled via the
-   Surveys:Telemetry:Enabled configuration setting.
+   SurveyStudio:Telemetry:Enabled configuration setting.
 
 6. FEES AND TERM
-   [Describe fee structure: one-time / annual / per-site, renewal terms,
-   and what happens on non-renewal — e.g. Software continues to function
-   at last-licensed version but is no longer entitled to updates/support.]
-   This Agreement is effective until terminated. Licensor may terminate
-   this Agreement immediately on written notice if Licensee breaches
-   Section 2. On termination, Licensee must cease using the Software and
-   remove it from all systems.
+   (a) Licence term. A paid license is valid for twelve (12) months from
+       the date it is issued (the "License Term"), as recorded in the
+       license file supplied by Licensor. The license fee is charged per
+       production site and covers twelve (12) months of support, payable
+       on purchase and on each renewal.
+   (b) Renewal. Licensee may renew for a further License Term by paying
+       the then-current license fee, which is the same as the fee for a
+       new license.
+       Licensor will supply a new license file on renewal. Licenses do
+       not renew automatically; Licensee must renew each License Term
+       manually.
+   (c) Grace period. If a License Term ends without renewal, the Software
+       continues to operate with the full features of the licensed tier
+       for a further thirty (30) days.
+   (d) After expiry. When the grace period ends, the Software continues to
+       run but reverts to its unlicensed trial mode, with the trial
+       limits in force at that time, which currently include a cap on the
+       number of public submissions, a single tenant, and no scoring or
+       other features reserved to the Plus tier. No data is deleted on
+       reversion, but the Software may reject new submissions or
+       operations that exceed the trial limits until a license is
+       renewed. Renewing restores the licensed tier.
+   (e) Termination. This Agreement continues until terminated. Licensor
+       may terminate it immediately on written notice if Licensee
+       breaches Section 2. On termination, Licensee must cease using the
+       Software and remove it from all systems. Expiry of a License Term
+       is not a termination; Licensee may continue to use the Software
+       in trial mode under this Agreement.
+   (f) Revocation. Licensor may revoke a license, for example where the
+       fee is refunded or the license is used outside the domain(s) it
+       was issued for, in which case the Software reverts to trial mode.
+       The Software periodically checks with Licensor whether the
+       license has been revoked.
 
 7. SUPPORT AND UPDATES
-   [Describe what support/update entitlement, if any, comes with the
-   license fee, and for how long.]
+   The license fee includes support for the License Term of twelve (12)
+   months, and all new versions of the Software released during the
+   License Term at no additional charge.
 
 8. WARRANTY DISCLAIMER
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
@@ -91,14 +116,14 @@ IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
    DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, ARISING OUT OF OR RELATED
    TO THIS AGREEMENT OR THE SOFTWARE. LICENSOR'S TOTAL LIABILITY UNDER
    THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE
-   SOFTWARE IN THE [12] MONTHS PRECEDING THE CLAIM.
+   SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
 
 10. GOVERNING LAW
-   This Agreement is governed by the laws of [England and Wales —
-   confirm], without regard to conflict of law principles. The courts of
-   [England and Wales — confirm] shall have exclusive jurisdiction over
-   any dispute arising from this Agreement.
+   This Agreement is governed by the laws of England and Wales, without
+   regard to conflict of law principles. The courts of England and Wales
+   shall have exclusive jurisdiction over any dispute arising from this
+   Agreement.
 
 11. CONTACT
-    [Licensor contact/support email and, if applicable, registered
-    company name and number.]
+    RedMorello Limited, registered in England and Wales, company number
+    07148999. Support: surveystudio@redmorello.com.
