@@ -18,8 +18,17 @@ IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
    compliance with this Agreement, Licensor grants Licensee a limited,
    non-exclusive, non-transferable, non-sublicensable license to install
    and use the Software, in compiled/object form only, on the number of
-   production Umbraco sites for which Licensee has paid the license fee,
-   operated by Licensee or Licensee's own clients.
+   production sites for which Licensee has paid the license fee, operated
+   by Licensee or Licensee's own clients. A "production site" is the
+   single site served from the domain recorded in the license file
+   supplied by Licensor, including any subdomain of that domain used for
+   the same site (for example, the license for example.com also covers
+   www.example.com, and staging.example.com when it hosts a staging copy
+   of the same site). A different site hosted on a subdomain (for
+   example, a separate shop at shop.example.com) is a separate production
+   site and requires its own license.
+   Licensee may also use the Software on localhost for development and
+   testing without an additional license.
 
 2. RESTRICTIONS
    Licensee shall not, and shall not permit any third party to:
