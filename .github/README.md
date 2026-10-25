@@ -15,10 +15,8 @@ Survey Studio adds a full forms and survey builder to the Umbraco backoffice —
 - **Custom question types & data lists** — define reusable question types and shared option lists (e.g. countries, departments) once, use them across forms.
 - **Themes** — apply consistent styling across a form or a whole site's worth of forms.
 - **Conditional workflows** — a visual rules engine drives branching logic and conditional behaviour based on answers given.
-- **Scoring** — automatically score responses for quizzes and assessments.
 - **Folders & templates** — organize forms into folders and start new forms from reusable templates.
 - **Submissions** — review, filter, and manage submitted responses directly in the backoffice.
-- **Multi-tenant ready** — a tenant-aware data layer suits agencies and multi-site installs running many surveys from one Umbraco instance.
 
 ## Requirements
 
