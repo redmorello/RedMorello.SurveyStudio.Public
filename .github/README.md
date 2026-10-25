@@ -41,7 +41,7 @@ Run the site and add the SurveyStudio section to your User account, then open th
 
 Sample forms can be seeded automatically on first run via the `SurveyStudio:SeedSampleData` / `SurveyStudio:SeedSampleForms` configuration options.
 
-On first install, Survey Studio sends a one-time notification (site domain, package/Umbraco versions, license tier) so RedMorello knows where the package is installed - see [LICENSE.txt](../LICENSE.txt) for details. Disable via `Surveys:Telemetry:Enabled: false`.
+While installed, Survey Studio sends a notification roughly once a week (site domain, package/Umbraco versions, license tier) so RedMorello knows where the package is installed - see [LICENSE.txt](../LICENSE.txt) for details. Disable via `SurveyStudio:Telemetry:Enabled: false`.
 
 ## reCAPTCHA
 
@@ -63,6 +63,8 @@ reCAPTCHA applies to anonymous public forms only; it isn't checked on forms rest
 ## License
 
 Survey Studio is licensed commercial software — see [LICENSE.txt](../LICENSE.txt). A free trial tier is available; visit the Survey Studio dashboard in the backoffice after installing for license status and upgrade options.
+
+To apply a paid license, place the `.lic` file provided by RedMorello at `umbraco/Licenses/SurveyStudio/license.lic`, relative to the site's content root (alongside `appsettings.json`, not `wwwroot`). This path can be changed via the `SurveyStudio:Licensing:LicenseFilePath` configuration option.
 
 ## Support
 
