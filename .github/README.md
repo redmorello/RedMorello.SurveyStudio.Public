@@ -22,8 +22,12 @@ Survey Studio adds a full forms and survey builder to the Umbraco backoffice —
 
 ## Requirements
 
-- Umbraco CMS 17+
+- Umbraco CMS 17.4.2+ or 18.x
 - .NET 10
+
+## Versioning
+
+Survey Studio's major version tracks the lowest Umbraco major it supports: **17.x** releases support Umbraco 17 and 18. A new major (e.g. 18.0.0) is released only when support for the oldest Umbraco major is dropped.
 
 ## Installation
 
