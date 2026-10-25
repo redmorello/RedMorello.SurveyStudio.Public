@@ -39,6 +39,23 @@ Sample forms can be seeded automatically on first run via the `SurveyStudio:Seed
 
 On first install, Survey Studio sends a one-time notification (site domain, package/Umbraco versions, license tier) so RedMorello knows where the package is installed - see [LICENSE.txt](../LICENSE.txt) for details. Disable via `Surveys:Telemetry:Enabled: false`.
 
+## reCAPTCHA
+
+Public forms can be protected with Google reCAPTCHA v2 (the "I'm not a robot" checkbox). Create a v2 Checkbox key pair in the [reCAPTCHA admin console](https://www.google.com/recaptcha/admin), with your site's domain(s) added, then set both keys in the `SurveyStudio` section of `appsettings.json`:
+
+```json
+"SurveyStudio": {
+  "ReCaptcha": {
+    "SiteKey": "your-site-key",
+    "SecretKey": "your-secret-key"
+  }
+}
+```
+
+Then turn on **Requires reCAPTCHA** in the settings of each form that should use it. The widget is shown above the form, and the response is verified server-side when the first submission is saved. The site key is sent to the browser; the secret key never is - consider keeping it out of source control (e.g. in user secrets or an environment variable such as `SurveyStudio__ReCaptcha__SecretKey`).
+
+reCAPTCHA applies to anonymous public forms only; it isn't checked on forms restricted to logged-in members. If a form requires reCAPTCHA but `SecretKey` isn't set, every submission to that form is rejected, so a missing key can't silently switch the protection off.
+
 ## License
 
 Survey Studio is licensed commercial software — see [LICENSE.txt](../LICENSE.txt). A free trial tier is available; visit the Survey Studio dashboard in the backoffice after installing for license status and upgrade options.
